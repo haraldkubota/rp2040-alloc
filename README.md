@@ -40,5 +40,5 @@ $ cargo size --release
 `cargo run` is all you need. You'll get a log of messages via the Pico probe:
 
 
-![ASCIINEMA Playback](img/screenshot.png)
+![<img src="img/screenshot.png">](https://asciinema.org/a/687158)
 
