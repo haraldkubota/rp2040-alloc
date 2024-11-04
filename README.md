@@ -1,9 +1,9 @@
 # Embedded Rust and Embassy and allocating memory
 
-no_std needs a memory allocator once you use certain features of Rust, e.g. Vec's.
+no_std needs a memory allocator once you use certain features of Rust, e.g. Vec\<T\>'s.
 By default Embassy on RP2040 does not provide those causing errors like
 
-```error: no global memory allocator found but one is required```
+`error: no global memory allocator found but one is required`
 
 
 ## Hardware Requirements
@@ -39,7 +39,6 @@ $ cargo size --release
 
 `cargo run` is all you need. You'll get a log of messages via the Pico probe:
 
-```
 
 ![ASCIINEMA Playback](img/screenshot.png)
 
