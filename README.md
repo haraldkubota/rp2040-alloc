@@ -42,3 +42,4 @@ $ cargo size --release
 
 [<img src="img/screenshot.png">](https://asciinema.org/a/687158)
 
+A bit more explanation is available [here](https://wordpress.com/post/hkubota.wordpress.com/2179).
